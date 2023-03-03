@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{a427180b-0110-4e11-ad28-8071d56ca32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FoePlaneBox">
+      <UniqueIdentifier>{6494fc86-ccde-42bd-a132-11b88cbb7aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameConfig">
+      <UniqueIdentifier>{008024ea-3998-4424-95d6-0a6cb03f2615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{42ec7d0b-e329-4688-b431-67775b0f86e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GunnerBox">
+      <UniqueIdentifier>{6d5bcd49-fbfa-4c94-9585-9ef05e6f7e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaneApp">
+      <UniqueIdentifier>{0d60c553-736a-4319-acce-63813ba88d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerPlane">
+      <UniqueIdentifier>{e99c3f72-35e8-4554-bec4-ff2aea80c531}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackGround\BackGround.cpp">
+      <Filter>BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlane.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneBig.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneBox.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneMid.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FoePlaneBox\FoePlaneSma.cpp">
+      <Filter>FoePlaneBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfig\GameConfig.cpp">
+      <Filter>GameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="GunnerBox\Gunner.cpp">
+      <Filter>GunnerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GunnerBox\GunnerBox.cpp">
+      <Filter>GunnerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneApp\PlaneApp.cpp">
+      <Filter>PlaneApp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrame\main.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPlane\PlanePlane.cpp">
+      <Filter>PlayerPlane</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackGround\BackGround.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlane.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneBig.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneBox.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneMid.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FoePlaneBox\FoePlaneSma.h">
+      <Filter>FoePlaneBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig\GameConfig.h">
+      <Filter>GameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="GunnerBox\Gunner.h">
+      <Filter>GunnerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GunnerBox\GunnerBox.h">
+      <Filter>GunnerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneApp\PlaneApp.h">
+      <Filter>PlaneApp</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrame\GameFrame.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPlane\PlanePlane.h">
+      <Filter>PlayerPlane</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

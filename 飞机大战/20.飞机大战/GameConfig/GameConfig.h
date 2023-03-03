@@ -1,0 +1,81 @@
+#pragma once
+
+#define IMG_BACKGROUND_WIDTH   600
+#define IMG_BACKGROUND_HEIGHT  800
+
+#define WND_X            500
+#define WND_Y            100
+#define WND_GAME_WIDTH        IMG_BACKGROUND_WIDTH+16
+#define WND_GAME_HEIGHT       IMG_BACKGROUND_HEIGHT+39
+#define WND_GAME_TITLE        "·É»ú´óÕ½"
+
+
+#define IMG_PLAYER_WIDTH   60
+#define IMG_PLAYER_HEIGHT  60
+
+#define IMG_GUNNER_WIDTH   6
+#define IMG_GUNNER_HEIGHT  20
+
+#define IMG_FOEBIG_WIDTH      150
+#define IMG_FOEBIG_HEIGHT     100
+
+#define IMG_FOEMID_WIDTH      80
+#define IMG_FOEMID_HEIGHT     60
+
+#define IMG_FOESMA_WIDTH      60
+#define IMG_FOESMA_HEIGHT     40
+
+
+
+
+#define TIMER_BACKGROUND_MOVE_TIMERID    1
+#define TIMER_BACKGROUND_MOVE_INTERVAL   100
+#define TIMER_BACKGROUND_MOVE_STEP       4
+
+
+
+#define TIMER_PLAYER_CHECKMOVE_TIMERID    2
+#define TIMER_PLAYER_CHECKMOVE_INTERVAL   10
+#define TIMER_PLAYER_MOVE_STEP            3
+
+
+#define TIMER_SEND_GUNNER_TIMERID         3
+#define TIMER_SEND_GUNNER_INTERVAL        600
+
+
+#define TIMER_GUNNER_MOVE_TIMERID        4
+#define TIMER_GUNNER_MOVE_INTERVAL       60
+#define TIMER_GUNNER_MOVE_STEP           15
+
+
+
+#define TIMER_CREAT_FOEBIG_TIMERID        5
+#define TIMER_CREAT_FOEBIG_INTERVAL       12000
+
+#define TIMER_CREAT_FOEMID_TIMERID        6
+#define TIMER_CREAT_FOEMID_INTERVAL       10000
+
+#define TIMER_CREAT_FOESMA_TIMERID        7
+#define TIMER_CREAT_FOESMA_INTERVAL       8000
+
+#define TIMER_FOEPLAEN_TIMERID			  8
+#define TIMER_FOEPLAEN_INTERVAL			  50
+
+#define TIMER_FOEBIG_MOVE_STEP           3
+#define TIMER_FOEMID_MOVE_STEP           5
+#define TIMER_FOESMA_MOVE_STEP           8
+
+
+#define TIMER_CHECK_HIT_TIMERID        9
+#define TIMER_CHECK_HIT_INTERVAL       5
+
+
+#define TIMER_CHANGE_BOOM_TIMERID        10
+#define TIMER_CHANGE_BOOM_INTERVAL       100
+
+
+#define DEF_FOEBIG_BLOOD    5
+#define DEF_FOEMID_BLOOD    3
+#define DEF_FOESMA_BLOOD    1
+
+#define DEF_GUNNER_HURT     1

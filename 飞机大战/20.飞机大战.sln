@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.飞机大战", "20.飞机大战\20.飞机大战.vcxproj", "{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Debug|x64.ActiveCfg = Debug|x64
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Debug|x64.Build.0 = Debug|x64
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Debug|x86.Build.0 = Debug|Win32
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Release|x64.ActiveCfg = Release|x64
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Release|x64.Build.0 = Release|x64
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Release|x86.ActiveCfg = Release|Win32
+		{5FCC6214-B4F8-42DA-98E1-AC04CECF3316}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A00131A3-A583-4F18-85C9-C6526B59C0F5}
+	EndGlobalSection
+EndGlobal
